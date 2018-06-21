@@ -113,6 +113,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &154751663
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'IMG_20180621_225940Material
+
+    -20228'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 713b03e067874b70a7a6bb70c1269838, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +247,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1134066203}
+  - {fileID: 154751663}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -273,15 +300,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: WinterIsComing
+  mTrackableName: IMG_20180621_225940
   mPreserveChildSize: 1
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Test.xml
   mExtendedTracking: 0
-  mAspectRatio: 0.75
+  mAspectRatio: 1.333493
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.75
+  mHeight: 1.333493
 --- !u!4 &306364917
 Transform:
   m_ObjectHideFlags: 0
@@ -290,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 306364911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0458, y: 0, z: 0.2049}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.333493, y: 1.333493, z: 1.333493}
   m_Children:
   - {fileID: 1266144925}
   - {fileID: 825598916}
@@ -301,33 +328,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d61db05cf438f84438613991122932d2, type: 3}
   m_PrefabInternal: {fileID: 1786176166}
---- !u!21 &1134066203
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 'WinterIsComingMaterial
-
-    -20228'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2df1d15b724d45dbbd99a1af69cb2ee1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!4 &1266144925 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 64049bf9fa5ee9b4e99be918fbeb2feb, type: 3}
@@ -349,7 +349,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.375}
+      m_Extent: {x: 0.3749551, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -418,7 +418,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf000000000000c0be000000000000803f000000000000000000000000000000bf000000000000c03e000000000000803f00000000000000000000803f0000003f000000000000c0be000000000000803f000000000000803f000000000000003f000000000000c03e000000000000803f000000000000803f0000803f
+    _typelessdata: 1dfabfbe00000000000000bf00000000ffff7f3f0000000000000000000000001dfabfbe000000000000003f00000000ffff7f3f00000000000000000000803f1dfabf3e00000000000000bf00000000ffff7f3f000000000000803f000000001dfabf3e000000000000003f00000000ffff7f3f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
