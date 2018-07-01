@@ -1,16 +1,79 @@
 fileFormatVersion: 2
-guid: d61db05cf438f84438613991122932d2
+guid: 429da3b166e4cff4b8eac9d5079a7fd9
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: defaultMat
-    2300000: default
-    3300000: default
-    4300000: default
+    100000: Cilindro
+    100002: Cilindro_2
+    100004: Cubo
+    100006: Doblar
+    100008: Escenario
+    100010: "Escenario_B\xE1sico_v4__E_P_"
+    100012: Estudio
+    100014: HDRI
+    100016: "HDRI_de_previsualizaci\xF3n"
+    100018: HyperNURBS
+    100020: Luces
+    100022: Luz
+    100024: Luz_1
+    100026: Luz_2
+    100028: Luz_3
+    100030: Luz_4
+    100032: //RootNode
+    100034: Nulo_
+    100036: "Rotaci\xF3n_Y"
+    100038: "Rotaci\xF3n_Z"
+    100040: Suelo_reflectivo
+    100042: suelo_visible
+    100044: suelo_y_fondo
+    400000: Cilindro
+    400002: Cilindro_2
+    400004: Cubo
+    400006: Doblar
+    400008: Escenario
+    400010: "Escenario_B\xE1sico_v4__E_P_"
+    400012: Estudio
+    400014: HDRI
+    400016: "HDRI_de_previsualizaci\xF3n"
+    400018: HyperNURBS
+    400020: Luces
+    400022: Luz
+    400024: Luz_1
+    400026: Luz_2
+    400028: Luz_3
+    400030: Luz_4
+    400032: //RootNode
+    400034: Nulo_
+    400036: "Rotaci\xF3n_Y"
+    400038: "Rotaci\xF3n_Z"
+    400040: Suelo_reflectivo
+    400042: suelo_visible
+    400044: suelo_y_fondo
+    2100000: suelo
+    2100002: desvanecimiento
+    2100004: Estudio
+    2100006: No Name
+    2100008: Madera
+    2300000: Cilindro_2
+    2300002: Cubo
+    2300004: Estudio
+    2300006: Suelo_reflectivo
+    2300008: suelo_visible
+    3300000: Cilindro_2
+    3300002: Cubo
+    3300004: Estudio
+    3300006: Suelo_reflectivo
+    3300008: suelo_visible
+    4300000: suelo_visible
+    4300002: Suelo_reflectivo
+    4300004: Estudio
+    4300006: Cubo
+    4300008: Cilindro_2
+    10800000: Luz_1
+    10800002: Luz_2
+    10800004: Luz_3
+    10800006: Luz_4
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
